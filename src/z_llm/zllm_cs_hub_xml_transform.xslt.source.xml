@@ -1,0 +1,16 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="response" type="?"/>
+  <tt:root name="edit_category" type="?"/>
+  <tt:root name="comments" type="?"/>
+  <tt:template>
+    <response>
+      <edit_category>
+        <tt:value ref="edit_category"/>
+      </edit_category>
+      <comments>
+        <tt:value ref="comments"/>
+      </comments>
+    </response>
+  </tt:template>
+</tt:transform>

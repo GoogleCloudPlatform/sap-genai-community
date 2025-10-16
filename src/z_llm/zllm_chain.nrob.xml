@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NROB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <OBJECT>ZLLM_CHAIN</OBJECT>
+    <DOMLEN>CHAR5</DOMLEN>
+    <PERCENTAGE>90.0</PERCENTAGE>
+    <NOIVBUFFER>00000010</NOIVBUFFER>
+    <UNAME>ASEXTON</UNAME>
+    <UDATE>2025-06-27</UDATE>
+    <UTIME>11:53:35</UTIME>
+   </ATTRIBUTES>
+   <TEXT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZLLM_CHAIN</OBJECT>
+    <TXT>LLM Prompt chain sequence</TXT>
+    <TXTSHORT>LLM Prompt chain</TXTSHORT>
+   </TEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

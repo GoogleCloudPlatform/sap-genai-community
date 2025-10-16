@@ -1,0 +1,15 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="ROOT" type="?"/>
+  <tt:root line-type="ddic:ZST_LLM_CS_HUB_ART_EXTRACTION" name="ARTICLE_EXTRACTIONS"/>
+  <tt:template>
+    <ARTICLE_EXTRACTIONS>
+      <tt:loop ref=".ARTICLE_EXTRACTIONS">
+        <ZST_LLM_CS_HUB_ART_EXTRACTION>
+          <ARTICLE_ID tt:value-ref="ARTICLE_ID"/>
+          <ARTICLE_DESCRIPTION tt:value-ref="ARTICLE_DESCRIPTION"/>
+        </ZST_LLM_CS_HUB_ART_EXTRACTION>
+      </tt:loop>
+    </ARTICLE_EXTRACTIONS>
+  </tt:template>
+</tt:transform>

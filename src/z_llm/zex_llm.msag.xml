@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZEX_LLM</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No function call properties have been maintained. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No prompt for App ID: &amp;1, Prompt ID: &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Invalid app id &amp;1 or business function &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Function call parameters not maintained correctly for FM &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Unable to set GCS bucket &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>GCS search error &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Invalid config entry in ZLLM_GCS_PARAM. &amp;1 attribute missing.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Unable to set inline data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Invalid GCS file &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Cannot save prompt. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Cannot select prompt. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>No active app version found for &amp;1, business function &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>No active function version found for &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>No number range interval for &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>No function declaration maintained for app ID &amp;1, buss func &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Unable to create new version for app &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>No version control record found for &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>No prompt records found for version &amp;1, app &amp;2, &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>No function records found for version &amp;1, app &amp;2,&amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Failed to save prompt for &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Failed to save function declaration for &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Failed to update prompt history for &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Failed to delete prompt &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Cannot delete prompt when agent exists - &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Prompt already exists with key &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Not a valid app version &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Failed to set version for &amp;1, &amp;2 as version &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Version &amp;1 does not match active or beta versions</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Could not determine existing version for &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Failed to update/create version control record.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Invalid config type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Failed to save config for &amp;1, &amp;2, parameter &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Please prefix the agent name with &apos;Z_LLM_&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Please maintain external values in ZLLM_EXT_VALUE</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Creation of bot for app ID &amp;1 failed. Please try again.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Bot details for app ID &amp;1, business function &amp;2 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Cannot create role. Role already exists. See &amp;1, &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Cannot create role. Mandatory information missing &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Failed to save / update role &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Failed to save / update user role assignment. User &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Failed to update user version. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Failed to update prompt example</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Function module does not exist. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Unable to save user filter. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Key not provided from UI Odata call: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Failed to save note.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Failed to save conversation for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Failed to save sub agent &amp;1, &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>No function index found for app ID &amp;1 , buss function &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Failed to save function index for agent &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Failed to save external name for agent &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>XLST format error. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Simple model call failed. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Invalid log configuratoin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Object already locked by user &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Agent &amp;1 is not a sub agent</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Prompt &amp;1 has no chained agents</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Saving GCS map for agent &amp;1 failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Saving agent map between &amp;1 and &amp;2 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Saving RAG catalog &amp;1 failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Function module &amp;1 does not exist. Please ensure its existence.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Parent function/agent not provided</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Saving agent &amp;1 to catalogue &amp;2 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Agents from catalog &amp;1 exist in prompt chains. Please delete first.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Dynamic call method call failed. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Saving RAG class failed. &amp;1 -&gt; &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Unable to perform return. &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Email verification for order &amp;1 failed due to unavailabiity of email ID(s</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>You do not have necessary permissions. Please contact your administrator.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Prompt name &amp;1 failed to update</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Article not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>No sub agent configured</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Region not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Saving prompt connection failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Saving prompt properties failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Failed to create ABAP agent &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Failed to create workbench request &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEX_LLM</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Failed to activate FM &amp;1</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

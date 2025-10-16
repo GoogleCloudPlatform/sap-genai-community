@@ -1,0 +1,38 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="ROOT" type="?"/>
+  <tt:root line-type="ddic:ZLLM_FI_STAGING_ST" name="INVOICE_LINE"/>
+  <tt:template>
+    <INVOICE>
+      <tt:loop ref=".INVOICE_LINE">
+        <ZLLM_FI_STAGING_ST>
+          <UUID tt:value-ref="UUID"/>
+          <VENDOR_NAME tt:value-ref="VENDOR_NAME"/>
+          <DOC_DATE tt:value-ref="DOC_DATE"/>
+          <PO_NUMBER tt:value-ref="PO_NUMBER"/>
+          <INVOICE_NUMBER tt:value-ref="INVOICE_NUMBER"/>
+          <CUSTOMER_VAT_NUMBER tt:value-ref="CUSTOMER_VAT_NUMBER"/>
+          <SUPPLIER_VAT_NUMBER tt:value-ref="SUPPLIER_VAT_NUMBER"/>
+          <PAYMENT_TERMS tt:value-ref="PAYMENT_TERMS"/>
+          <EXTERNAL_CODE tt:value-ref="EXTERNAL_CODE"/>
+          <EXTERNAL_DESCRIPTION tt:value-ref="EXTERNAL_DESCRIPTION"/>
+          <INTERNAL_CODE tt:value-ref="INTERNAL_CODE"/>
+          <INTERNAL_DESCRIPTION tt:value-ref="INTERNAL_DESCRIPTION"/>
+          <NET_WEIGHT tt:value-ref="NET_WEIGHT"/>
+          <GROSS_WEIGHT tt:value-ref="GROSS_WEIGHT"/>
+          <TOTAL_CAR_QTY tt:value-ref="TOTAL_CAR_QTY"/>
+          <TOTAL_CAR_GROSS_WEIGHT tt:value-ref="TOTAL_CAR_GROSS_WEIGHT"/>
+          <UNITS_SHIPPED tt:value-ref="UNITS_SHIPPED"/>
+          <UOM tt:value-ref="UOM"/>
+          <UNIT_PRICE tt:value-ref="UNIT_PRICE"/>
+          <ITEM_TOTAL_VALUE tt:value-ref="ITEM_TOTAL_VALUE"/>
+          <TOTAL_VAT tt:value-ref="TOTAL_VAT"/>
+          <CURRENCY tt:value-ref="CURRENCY"/>
+          <DISCOUNT tt:value-ref="DISCOUNT"/>
+          <GROSS_UNIT_PRICE tt:value-ref="GROSS_UNIT_PRICE"/>
+          <PACK_SIZE tt:value-ref="PACK_SIZE"/>
+        </ZLLM_FI_STAGING_ST>
+      </tt:loop>
+    </INVOICE>
+  </tt:template>
+</tt:transform>
